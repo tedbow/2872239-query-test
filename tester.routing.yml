@@ -1,0 +1,7 @@
+tester.do_query:
+  path: '/query-check'
+  defaults:
+    _controller: '\Drupal\tester\Controller\DefaultController::doQuery'
+    _title: 'Query'
+  requirements:
+    _permission: 'access content'
